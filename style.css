@@ -20,6 +20,7 @@ h2 {
 h3 {
     font-size:48px;
     color: #000000;
+    margin-left: 0px;
 }
 #top {
     background-image: url(img/top.png);
@@ -84,11 +85,11 @@ h3 {
     border-bottom-left-radius: 20px;
 }
 .container{
-    background-image: url(img/about-box.png);
+    background-image: url(img/about.png);
+    background-size:contain;
     max-width: 900px;
     padding-left: 20px;
-    padding-right: 20px;
-    text-align: left;
+    text-align: center;
     margin-left: 490px;
     height: 660px;
 }
@@ -129,14 +130,6 @@ h3 {
     position: relative;
     margin-top: 0px;
 }
-.gradient {
-    background-image: linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0));
-    height: 50%;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
 .logo-second{
     margin-left: 800px;
 }
@@ -145,9 +138,62 @@ h3 {
     background-image: url(./data/about-box.png);
     min-height: 633px; max-width: 1024px;
     background-position: center;
+    position:center;
+    width: 90%;
+    padding: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#campaigns {
+    margin: 100px auto 0;
+    max-width: 1280px;
+    width: 90%;
+}
+#campaigns h3{
+    text-align: center;
+}
+.swiper {
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    width: 90%;
-    padding: 80px;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1px;
+}
+.campaign-slide{
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+.swiper-wrapper{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1px;
+    display: flex;
+    box-sizing: content-box;
+}
+.swiper-slide{
+    flex-shrink: 0px;
+}
+.slide-card {
+    width: 30%;
+    border: solid 3px #503c7a;
+    background:#fff;
+    height: 536px;
+    position: relative;
+}
+.gradient{
+    background-image:linear-gradient(to top, rgba(0,0,0,0.9),rgba(0,0,0,0));
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left:0;
+}
+.slide-card a{
+    display:block;
+    width: 100%;
+    height: 100%;
 }
