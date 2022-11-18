@@ -7,21 +7,22 @@
 body{
     font-family: 'Germania One', cursive;
     font-size:18px;
+    
 }
 h2, h3 {
     font-family: 'Germania One', cursive; 
 }
 h2 {
     font-size: 60px;
-    color: #ffff;
+    color: rgb(255, 255, 255);
     text-align: left
 }
 h3 {
     font-size:48px;
-    color: #323131;
+    color: #000000;
 }
 #top {
-    background-image: url(img/top-img.png);
+    background-image: url(img/top.png);
     background-position: center;
     background-size: cover;
     min-height: 900px;
@@ -83,14 +84,15 @@ h3 {
     border-bottom-left-radius: 20px;
 }
 .container{
-    background-color: antiquewhite;
+    background-image: url(img/about-box.png);
     max-width: 900px;
     padding-left: 20px;
     padding-right: 20px;
-    text-align: left
+    text-align: left;
+    margin-left: 490px;
+    height: 660px;
 }
 .explore {
-    width: 50%;
     color:#fff;
     padding: 50px;
 }
@@ -112,16 +114,40 @@ h3 {
     top:300px;
     z-index: 5;
 }
-.p {
+.top-content p {
+    font-family: 'Syne', sans-serif;
+    font-size: 18px;
     color:#fff
-    right:center; 
 }
 #mid {
     background-image: url(img/mid.png);
+    background-color: #fff;
     background-position: center;
     background-size: cover;
     height: 461px;
     width: 100%;
     position: relative;
-    margin-top: 1px;
+    margin-top: 0px;
+}
+.gradient {
+    background-image: linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0));
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.logo-second{
+    margin-left: 800px;
+}
+.about-paragraf{
+    color: rgb(0, 0, 0);
+    background-image: url(./data/about-box.png);
+    min-height: 633px; max-width: 1024px;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 90%;
+    padding: 80px;
 }
