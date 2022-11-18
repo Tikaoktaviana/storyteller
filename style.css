@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Fjalla+One&family=Germania+One&family=Lobster&family=Oswald:wght@500&family=Raleway:ital@1&family=Sansita:ital@1&family=Secular+One&display=swap');
 *{
     padding:0;
+    margin:0;
     box-sizing: border-box;
 }
 body{
@@ -39,7 +40,7 @@ h3 {
 .nav {
     width: 100%;
     position: absolute;
-    top:0px;
+    top: 0;
 }
 .nav-wrapper{
         width: 90%;
@@ -109,13 +110,14 @@ h3 {
     padding: 30px 10px;
     text-align: center;
     top:300px;
+    z-index: 5;
 }
 .p {
     color:#fff
     right:center; 
 }
 #mid {
-    background-image: url(./img/mid.png);
+    background-image: url(img/mid.png);
     background-position: center;
     background-size: cover;
     height: 461px;
