@@ -231,3 +231,18 @@ h3 {
 }
 #leviathan .campaign-logo {
     max-width: 331px;
+}
+
+#dead-alive {
+    background-image: url(img/tavern.jpg);
+    background-position: 20% 50%;
+    background-size: cover;
+}
+#dead-alive .campaign-logo {
+    max-width: 258px;
+}
+#campaigns {
+    margin: 100px auto 0;
+    max-width: 1280px;
+    width: 90%;
+}
