@@ -15,7 +15,7 @@ h2, h3 {
 h2 {
     font-size: 60px;
     color: rgb(255, 255, 255);
-    text-align: left
+    text-align: left;
 }
 h3 {
     font-size:48px;
@@ -29,15 +29,15 @@ h3 {
     min-height: 900px;
     position: relative;
     display: flex;
-    justify-content: flex-end;
+    justify-content:end;
     align-items: center;
+
 }
 .top-content{
-    width: 1000px;
-    height: 670px;
     width: 50%;
     color:#fff;
     max-width: none;
+
 }
 .nav {
     width: 100%;
@@ -70,6 +70,8 @@ h3 {
 .button-grup {
     display: flex;
     margin-top: 40px;
+    font-size: 18px;
+    font-family: 'Syne', sans-serif;
 }
 .button-grup a {
     color: #fff;
@@ -80,9 +82,11 @@ h3 {
     text-decoration: none;
     text-transform: uppercase;
     background-image: linear-gradient(to right, #503c7a, #9f2e87);
-    padding:15x 10px;
+    padding: 20px 60px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
+    width: 20%;
+    text-align: center;
 }
 .container{
     background-image: url(img/about.png);
@@ -113,12 +117,11 @@ h3 {
     padding: 30px 10px;
     text-align: center;
     top:300px;
-    z-index: 5;
 }
 .top-content p {
     font-family: 'Syne', sans-serif;
     font-size: 18px;
-    color:#fff
+    color:#fff;
 }
 #mid {
     background-image: url(img/mid.png);
@@ -138,19 +141,24 @@ h3 {
     background-image: url(./data/about-box.png);
     min-height: 633px; max-width: 1024px;
     background-position: center;
-    position:center;
     width: 90%;
     padding: 80px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-bottom: 50px;
+    display:auto;
+    flex-wrap: wrap;
 }
 #campaigns {
     margin: 100px auto 0;
     max-width: 1280px;
     width: 90%;
+    margin-top: 60px;
 }
 #campaigns h3{
     text-align: center;
+    margin-bottom: 30px;
 }
 .swiper {
     margin-left: auto;
@@ -276,6 +284,7 @@ h3 {
     position: relative;
     margin: 115px 0 50px;
     text-align: center;
+    margin-top: -30px;
 
 }
 #attributions{
@@ -293,7 +302,6 @@ h3 {
 }
 .newsletter>h3{
     color: #500c7a;
-
 }
 #attributions a {
     text-decoration:none;
@@ -321,38 +329,28 @@ h3 {
     border: solid 2px #500c7a;
     padding: 15px;
 }
-input[type="text" i] {
-    padding: 1px 2px;
+.newsletter button {
+    width: 9%;
+    background-image: linear-gradient(to right, #500c7a, #9f2f87);
+    border: none;
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    cursor: pointer;
+    padding: 14px;
+    width: 5%;
 }
-input {
-    writing-mode: horizontal-tb !important;
-    font-style: ;
-    font-variant-ligatures: ;
-    font-variant-caps: ;
-    font-variant-numeric: ;
-    font-variant-east-asian: ;
-    font-weight: ;
-    font-stretch: ;
-    font-size: ;
-    font-family: ;
-    text-rendering: auto;
-    color: fieldtext;
-    letter-spacing: normal;
-    word-spacing: normal;
-    line-height: normal;
-    text-transform: none;
-    text-indent: 0px;
-    text-shadow: none;
-    display: inline-block;
-    text-align: start;
-    appearance: auto;
-    -webkit-rtl-ordering: logical;
-    cursor: text;
-    background-color: field;
-    margin: 0em;
-    padding: 1px 2px;
-    border-width: 2px;
-    border-style: inset;
-    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
-    border-image: initial;
+.container .island{
+    margin-left:10px;
+    position: absolute;
+    top: -70px;
+    right: -900px;
+    left: -120px;
+}
+.top-content>p{
+    font-size: 18px;
+    font-family: 'Syne', sans-serif;
 }
