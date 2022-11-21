@@ -76,16 +76,15 @@ h3 {
 .button-grup a {
     color: #fff;
     display: flex;
-    padding: 20px 75px;
+    padding: 20px 50px;
 }
 .button-grup  .explore {
     text-decoration: none;
     text-transform: uppercase;
     background-image: linear-gradient(to right, #503c7a, #9f2e87);
-    padding: 20px 20px;
+    padding: 20px 20px 20px 20px;
     border-top-right-radius: 15px;
-    border-bottom-left-radius: 20px;
-    width: 18%;
+    border-bottom-left-radius: 15px;
     text-align: center;
 
 }
@@ -100,7 +99,7 @@ h3 {
 }
 .explore {
     color:#fff;
-    padding: 50px;
+    text-align: center;
 }
 .explore.p {
     margin-right: 30px;
@@ -226,6 +225,7 @@ h3 {
 #bvale .campaign-logo {
     bottom: 45px;
     padding: 10px 25px;
+    position: center;
 }
 
 #leviathan {
@@ -234,7 +234,9 @@ h3 {
     background-size: cover;
 }
 #leviathan .campaign-logo {
-    max-width: 331px;
+    bottom: 45px;
+    padding: 10px 25px;
+    position: center;
 }
 
 #dead-alive {
@@ -243,7 +245,9 @@ h3 {
     background-size: cover;
 }
 #dead-alive .campaign-logo {
-    max-width: 258px;
+    bottom: 45px;
+    padding: 10px 25px;
+    position: center;
 }
 .campaign-logo {
     position: absolute;
@@ -317,10 +321,9 @@ h3 {
 }
 #subscription {
     text-align: center;
-    padding: 55px;
+    padding: 0px;
     background: #efefef;
     position: relative;
-    margin: 115px 0 50px;
 }
 
 #subscription::after {
@@ -427,8 +430,8 @@ h3 {
 .swiper-nav a {
     display: inline-block;
     text-decoration: none;
-    padding: 8px 16px;
+    padding: 16px 16px;
     color: #500c7a;
     height: 100%;
-    width: fit-content;
+    width: 100%;
 }
