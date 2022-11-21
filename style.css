@@ -82,11 +82,12 @@ h3 {
     text-decoration: none;
     text-transform: uppercase;
     background-image: linear-gradient(to right, #503c7a, #9f2e87);
-    padding: 20px 60px;
-    border-top-right-radius: 20px;
+    padding: 20px 20px;
+    border-top-right-radius: 15px;
     border-bottom-left-radius: 20px;
-    width: 30%;
+    width: 18%;
     text-align: center;
+
 }
 .container{
     background-image: url(img/about.png);
@@ -364,15 +365,15 @@ h3 {
 }
 
 .newsletter button {
-    width: 8%;
+    width: 10%;
     background-image: linear-gradient(to right, #500c7a, #9f2f87);
     border: none;
     font-family: 'Syne', sans-serif;
     font-weight: 700;
     color: #fff;
     text-transform: uppercase;
-    border-top-right-radius: 6px;
-    border-bottom-left-radius: 8px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
     cursor: pointer;
 }
 
