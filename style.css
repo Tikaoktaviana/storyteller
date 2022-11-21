@@ -249,3 +249,31 @@ h3 {
     padding: 8px;
     justify-content: center;
 }
+#subscription{
+    margin: 100px auto 0;
+    width: 100%;
+    text-align: center; 
+    background-image: url(img/shelves.png);
+    background-size:contain;
+    background-position: center;
+}
+.newsletter {
+    text-align: center;
+    padding: 55px;
+    position: relative;
+    margin: 115px 0 50px;
+}
+#attributions{
+    margin: 100px auto 0;
+    width: 100%;
+    text-align: center; 
+    text-align: center;
+    background: #500c7a;
+    background-size:contain;
+    color: #fff;
+}
+.newsletter-content form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
